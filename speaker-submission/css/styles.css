@@ -91,6 +91,13 @@ body {
   float: left;
 }
 
+.form-row > select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    -webkit-appearance: none;
+}
+
 @media only screen and (min-width: 700px) {
   .form-header,
   .speaker-form {
@@ -130,7 +137,6 @@ body {
 
   .legacy-form-row > legend {
     float: left;
-
   }
 
 }
